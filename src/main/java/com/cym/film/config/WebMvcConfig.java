@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo.config;
+package com.cym.film.config;
 
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

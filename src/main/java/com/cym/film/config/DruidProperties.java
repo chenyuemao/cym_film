@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo.config;
+package com.cym.film.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import lombok.Data;
@@ -13,11 +13,11 @@ import java.sql.SQLException;
 @ConfigurationProperties(prefix = "spring.datasource")
 public class DruidProperties {
 
-    private String url = "jdbc:mysql://127.0.0.1:3306/next_demo?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC";
+    private String url = "jdbc:mysql://10.211.55.13:3306/spring?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC";
 
     private String username = "root";
 
-    private String password = "1234567";
+    private String password = "root";
 
     private String driverClassName = "com.mysql.cj.jdbc.Driver";
 

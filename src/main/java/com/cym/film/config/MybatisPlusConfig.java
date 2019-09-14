@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo.config;
+package com.cym.film.config;
 
 
 import com.alibaba.druid.pool.DruidDataSource;
@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan(basePackages = {"com.next.jiangzh.springbootdemo.dao.mapper"})
+@MapperScan(basePackages = {"com.cym.film.dao.mapper", "com.cym.film.example.dao"})
 public class MybatisPlusConfig {
 
     @Bean

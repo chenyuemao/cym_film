@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo;
+package com.cym.film.generator;
 
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
@@ -20,22 +20,22 @@ import java.util.Map;
 public class EntityGenerator {
 
     // 生成输出目录，定位到工程的java目录下
-    private String outputDir = "F:\\workSpace\\next_workspace\\demo_workspace\\springboot-demo\\src\\main\\java";
+    private String outputDir = "/Users/chen/Documents/studySelf/studyJava/shop/cym_film/src/main/java";
     // 生成类的作者
-    private String author = "jiangzh";
+    private String author = "chen.yuemao";
     // 数据源相关配置
-    private String url = "jdbc:mysql://127.0.0.1:3306/next_demo?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC";
+    private String url = "jdbc:mysql://10.211.55.13:3306/spring?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC";
     private String driverName = "com.mysql.cj.jdbc.Driver";
     private String userName = "root";
-    private String userPwd = "123456";
+    private String userPwd = "root";
     // DAO的包路径
-    private String daoPackage = "com.next.jiangzh.springbootdemo.dao";
+    private String daoPackage = "com.cym.film.dao";
     // 待生成的表名，注意是覆盖更新
     private static String[] tableNames;
 
     static{
         tableNames = new String[]{
-                "next_user"
+                "next_user_t"
         };
     }
 

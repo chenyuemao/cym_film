@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo.dao;
+package com.cym.film.example.dao.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

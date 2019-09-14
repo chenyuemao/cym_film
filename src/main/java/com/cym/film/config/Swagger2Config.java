@@ -1,4 +1,4 @@
-package com.example.demo.common;
+package com.cym.film.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +22,7 @@ public class Swagger2Config {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.cym.film.example.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -33,7 +33,7 @@ public class Swagger2Config {
                 //页面标题
                 .title("Spring Boot 测试使用 Swagger2 构建RESTful API")
                 //创建人
-                .contact(new Contact("Jiangzh", "http://www.qq.com", ""))
+                .contact(new Contact("chenyuemao", "http://www.qq.com", ""))
                 //版本号
                 .version("1.0")
                 //描述

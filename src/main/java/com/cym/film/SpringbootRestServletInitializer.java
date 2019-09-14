@@ -1,4 +1,4 @@
-package com.next.jiangzh.springbootdemo;
+package com.cym.film;
 
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -8,6 +8,6 @@ public class SpringbootRestServletInitializer extends SpringBootServletInitializ
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(SpringbootDemoApplication.class);
+        return builder.sources(CymFilmApplication.class);
     }
 }
